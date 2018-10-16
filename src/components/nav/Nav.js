@@ -1,4 +1,3 @@
-//sets up the reusable Navbar component
 import React, { Component } from "react";
 
 class Nav extends Component {
@@ -12,7 +11,7 @@ class Nav extends Component {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item nav-link">
-            Score:
+            Score: {this.props.score}
           </li>
           <li class="nav-item nav-link">
           Top Score:
