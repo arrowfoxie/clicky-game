@@ -1,4 +1,5 @@
 import React from "react";
+import "./CatCard.css";
 
 const CatCard = props => (
   <div className="card" onClick={props.imageClick}>

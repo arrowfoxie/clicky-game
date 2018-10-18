@@ -1,0 +1,14 @@
+.jumbotron {
+    background-image: url("../../images/spooky.jpg");
+}
+
+.display-4 {
+    color: white !important;
+    font-weight: 700;
+    text-shadow: 2px 2px black;
+}
+
+.lead {
+    color: white;
+    text-shadow: 1px 1px black;
+}
